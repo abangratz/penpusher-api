@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  username: <%= Etc.getlogin %>
+  database: penpusher_dev
+
